@@ -1,5 +1,5 @@
 import { InputHTMLAttributes, ReactNode } from 'react';
-import { Slot } from '@radix-ui/react-slot'
+import { Slot } from '@radix-ui/react-slot';
 
 const textProps = 'bg-gray-800 text-gray-100 text-xs placeholder:text-gray-400';
 
@@ -48,4 +48,4 @@ export const TextInput = {
   Root: TextInputRoot,
   Input: TextInputInput,
   Icon: TextInputIcon
-} 
+}; 
